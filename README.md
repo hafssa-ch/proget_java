@@ -88,7 +88,7 @@ Filtrer les ventes par catégorie ou par période
 Graphique du chiffre d’affaires par mois
 
 ##  MCD
-	<img width="706" height="399" alt="image" src="https://github.com/user-attachments/assets/ed2d2a10-2c86-4731-a2d2-24e8495ceef6" />
+	<img width="353" height="200" alt="mcd" src="https://github.com/user-attachments/assets/0a0ad6d8-c666-4708-9204-fe64ce2f26aa" />
 
 ## Requêtes SQL
 CREATE TABLE Produit (
