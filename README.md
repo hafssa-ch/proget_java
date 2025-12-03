@@ -2,7 +2,9 @@
 
 Application de gestion des produits, clients et ventes
 
-VentesBoutique est une application Java destinée à gérer les produits d’une boutique, suivre les ventes, contrôler les stocks et analyser le chiffre d’affaires mensuel à l’aide de graphiques.
+VentesBoutique est une application Java destinée à gérer les produits d’une boutique, suivre les ventes, contrôler les stocks et analyser le chiffre d’affaires mensuel à 
+
+l’aide de graphiques.
 
 ## Table des matières
 Contexte
@@ -13,7 +15,7 @@ Objectifs
 
 Fonctionnalités
 
-Structure des tables
+MCD
 
 Requêtes SQL
 
@@ -21,6 +23,7 @@ Architecture
 
 Technologies utilisées
 
+Video
 
 ## Contexte
 
@@ -84,27 +87,9 @@ Filtrer les ventes par catégorie ou par période
 
 Graphique du chiffre d’affaires par mois
 
-## Structure des tables
-Table Produit
-Champ	Type	Description
-id	INT (PK)	Identifiant unique
-libelle	VARCHAR(100)	Nom du produit
-categorie	VARCHAR(50)	Catégorie du produit
-prix	DECIMAL(10,2)	Prix unitaire
-stock	INT	Stock actuel
-Table Client
-Champ	Type	Description
-id	INT (PK)	Identifiant unique
-nom	VARCHAR(100)	Nom du client
-ville	VARCHAR(100)	Ville du client
-email	VARCHAR(100)	Email du client
-Table Vente
-Champ	Type	Description
-id	INT (PK)	Identifiant vente
-produit_id	INT (FK)	Produit vendu
-client_id	INT (FK)	Client ayant acheté
-dateVente	DATE	Date de la vente
-quantite	INT	Quantité vendue
+##  MCD
+	<img width="706" height="399" alt="image" src="https://github.com/user-attachments/assets/ed2d2a10-2c86-4731-a2d2-24e8495ceef6" />
+
 ## Requêtes SQL
 CREATE TABLE Produit (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -133,8 +118,6 @@ CREATE TABLE Vente (
 
 ## Architecture
 
-Architecture MVC (Model - View - Controller)
-
 entities/ → classes Produit, Client, Vente
 
 service/ → gestion des opérations CRUD + logique métier
@@ -160,7 +143,7 @@ phpMyAdmin — Administration MySQL
 
 NetBeans IDE — Édition, compilation et exécution
 
-
+##video
 
 https://github.com/user-attachments/assets/af65cd0d-6d59-4456-8622-14c6c22eb844
 
