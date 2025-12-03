@@ -21,9 +21,6 @@ Architecture
 
 Technologies utilisées
 
-Démo
-
-Auteur
 
 ## Contexte
 
@@ -146,13 +143,6 @@ ui/ → Formulaires Java Swing (produits, clients, ventes, statistiques)
 
 dao/ → Accès aux données (JDBC + MySQL)
 
-##Schéma (exemple) :
- projet
-┣  entities
-┣  service
-┣  dao
- ui
-
 
 ## Technologies utilisées
 
@@ -171,10 +161,10 @@ phpMyAdmin — Administration MySQL
 NetBeans IDE — Édition, compilation et exécution
 
 
-
- Auteur
-
 Nom : Hafssa CHKOUKED
+
 Cours : Programmation Java
+
 Date : 2 Décembre 2025
+
 Encadré par : Mohamed LACHGAR
