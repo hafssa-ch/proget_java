@@ -73,35 +73,8 @@ L'application VentesBoutique permet de :
 
 Le projet est structuré de manière modulaire pour séparer la logique métier, l’accès aux données et l’interface utilisateur.
 
-boutique/
-└─ src/
-└─ com.example.tp/
-├─ connexion/
-│ └─ Connexion.java # Gestion de la connexion à la BDD
-├─ dao/
-│ └─ IDao.java # Interface DAO
-├─ entities/
-│ ├─ Client.java
-│ ├─ Produit.java
-│ └─ Vente.java
-├─ service/
-│ ├─ ClientService.java
-│ ├─ LoginService.java
-│ ├─ ProduitService.java
-│ └─ VenteService.java
-├─ ui/
-│ ├─ ClientFormmm.java
-│ ├─ Mainform.java
-│ ├─ ProduitFormm.java
-│ ├─ RechechePeriode.java
-│ ├─ RechercheCategorie.java
-│ ├─ Statistique.java
-│ ├─ loginForm.java
-│ └─ venteForm.java
-└─ Test/
-├─ TestClient.java
-├─ TestProduit.java
-└─ TestVente.java
+<img width="1024" height="1024" alt="ChatGPT Image 7 déc  2025, 23_37_38" src="https://github.com/user-attachments/assets/4ebc4ced-63c5-4baa-a3ec-9f040738adfe" />
+
 
 ##  MCD
 <img width="1302" height="619" alt="image" src="https://github.com/user-attachments/assets/93ecfa2e-1cdc-48b7-9ad8-12d367bcdc6f" />
