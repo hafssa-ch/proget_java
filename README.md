@@ -104,7 +104,8 @@ boutique/
 └─ TestVente.java
 
 ##  MCD
-<img width="353" height="200" alt="mcd (1)" src="https://github.com/user-attachments/assets/783a2a8a-c94d-4d98-b3f3-57119dcd1a7e" />
+<img width="1302" height="619" alt="image" src="https://github.com/user-attachments/assets/93ecfa2e-1cdc-48b7-9ad8-12d367bcdc6f" />
+
 
 ---
 
@@ -135,6 +136,8 @@ CREATE TABLE Vente (
     FOREIGN KEY (produit_id) REFERENCES Produit(id),
     FOREIGN KEY (client_id) REFERENCES Client(id)
 );
+```
+
 
 ## Technologies utilisées
 
